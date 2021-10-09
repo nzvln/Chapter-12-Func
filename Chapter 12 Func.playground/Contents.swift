@@ -36,7 +36,7 @@ func sum5(completionHandler:Foo) -> Int {
     return completionHandler(1, 2)
 }
 
-print("Zaloopa: \(sum5(completionHandler: someFoo))")
+print("Nadia: \(sum5(completionHandler: someFoo))")
 
 
 func someAction(action: () -> ()) {
@@ -55,19 +55,19 @@ someAction(action: { print("action")})
 
 func new() -> String {
 
-    return "ZALOOPA"
+    return "Nadia"
 }
 new()
 
 /* func new1(first: Int, second: String) {
     print(String(first) + "\n" + second)
 }
-new1(first: 7, second: "zaloop") */
+new1(first: 7, second: "bananas") */
 
 func new1(first: Int, second: String) -> String {
     return String(first) + "\n" + second
 }
-var sumNew1 = new1(first: 5, second: "zaloop")
+var sumNew1 = new1(first: 5, second: "bananas1")
 print("Возвращаем результат в переменную sumNew1:\n \(sumNew1)")
 
-print(new1(first: 10, second: "Big zaloop"))
+print(new1(first: 10, second: "Big bananas"))
